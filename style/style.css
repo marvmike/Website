@@ -1,14 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #24252A;
+  background-color:rgb(41, 7, 71);
+  color: #edf0f1;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color:rgb(41, 7, 71);
+  color: #ffffff;
+
 }
 
 li, a, button {
-font-family: "Roboto+Slab&display", sans-serif;
+font-family: sans-serif;
 font-weight: 400;
 font-size: 16px;
 color: #edf0f1;
@@ -17,7 +29,7 @@ text-decoration: none;
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 30px 10%;
 }
@@ -40,6 +52,7 @@ padding: 0px 20px;
 }
 
 button {
+  margin-left: 30px;
   padding: 9px 25px;
   background-color: rgba(0, 136, 169, 1);
   border: none;
@@ -50,4 +63,14 @@ button {
 
 button:hover{
   background-color: rgba(0, 136, 169, 0.8);
+}
+
+.body{
+  width: 600px;
+  display: block;
+  float: none;
+  margin: 0 auto;
+  position: relative;
+  top: 120px;
+  text-align: center;
 }
