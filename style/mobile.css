@@ -25,7 +25,7 @@
     display: block;
     width: 40px;
     height: 32px;
-    position: absolute;
+    position: relative;
     top: -7px;
     left: -5px;
     
@@ -42,6 +42,7 @@
   width: 33px;
   height: 4px;
   margin-bottom: 5px;
+  top: -35px;
   position: relative;
   
   background: #cdcdcd;
@@ -61,7 +62,7 @@
 }
 
 #menu{
-    position: absolute;
+    position: relative;
     width: 300px;
     margin: -100px 0 0 -50px;
     padding: 50px;
@@ -87,3 +88,33 @@
 #menutoggle input:checked ~ ul {
     transform: none;
 }
+
+
+body {  
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto;
+    grid-template-areas: "nav main nav"
+                          "header main aside"
+                          "footer footer footer";
+  } 
+
+  nav{
+    grid-area: nav;
+  }
+  
+  header{
+    grid-area: header;
+  }
+  
+  main{
+    grid-area: main;
+  }
+  
+  aside{
+    grid-area: aside;
+  }
+  
+  footer{
+    grid-area: footer;
+  }
