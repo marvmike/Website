@@ -92,11 +92,11 @@
 
 body {  
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 10% 80% 10%;
     grid-template-rows: auto;
-    grid-template-areas: "nav main nav"
-                          "header main aside"
-                          "footer footer footer";
+    grid-template-areas: "nav header header"
+                          "nav main aside "
+                          "footer footer  footer";
   } 
 
   nav{
