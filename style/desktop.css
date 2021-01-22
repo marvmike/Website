@@ -1,32 +1,32 @@
-#menutoggle{
+.menutoggle{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(82, 0, 82);
 }
 
-#menu{
+.menu{
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-#menu li{
+.menu li{
     list-style-type: none;
 }
 
-#menu li a{
+.menu li a{
     text-decoration: none;
     color: white;
     padding: 1em;
     display: block;
 }
 
-#menu li:hover{
+.menu li:hover{
     background-color: purple;
 }
 
-#menutoggle input {
+.menutoggle input {
     opacity: 0; /* to hide the checkbox */
 }
 

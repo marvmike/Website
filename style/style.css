@@ -4,16 +4,25 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Balsamiq Sans', cursive;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   margin: 100;
   padding: 100;
-  background-color:rgb(41, 7, 71);
+  background-color:#261839;
   color: #ffffff;
-} 
+}
 
+footer{
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #8E71B5;
+  padding: 1rem;
+  text-align: center;
+}
 
 .body1{
   position: center;
