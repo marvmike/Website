@@ -40,11 +40,16 @@ li{
 
 form{
   position: relative;
-  z-index: 1;
   max-width: 300px;
   margin: 0 auto 100px;
   padding: 45px;
   text-align: center;
+
+  display: grid;
+  width: 400px;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  grid-gap: .5em;
 }
 
 .btn:hover{
@@ -60,4 +65,10 @@ form{
   color: #ffffff;
   font-size: 20px;
   cursor: pointer;
+}
+
+
+.pfp{
+  width:350px;
+  height:550px;
 }
