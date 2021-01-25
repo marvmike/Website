@@ -103,6 +103,8 @@ body {
   
   header{
     grid-area: header;
+    position: center;
+    text-align: center;
   }
   
   main{
