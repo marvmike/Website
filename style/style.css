@@ -1,6 +1,7 @@
 
 *{
   box-sizing: border-box;
+
 }
 
 body {
@@ -10,9 +11,9 @@ body {
   line-height: 1.5;
   margin: 100;
   padding: 100;
-  background-image: linear-gradient(#300655,#63037a ,#4A00E0);
+  background-image: url(images\tree.jpg);
   color: #ffffff;
-  background-image:url(images/dark.jpg);
+
 }
 
 footer{
