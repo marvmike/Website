@@ -17,6 +17,7 @@
 
 .menu li a{
     text-decoration: none;
+    font-size: 20px;
     color: white;
     padding: 1em;
     display: block;
@@ -47,6 +48,9 @@ nav{
   }
   
   main{
+    position: center;
+    margin: 5% 20%;
+    text-align: center;
     grid-area: main;
   }
   

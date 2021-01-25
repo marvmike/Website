@@ -106,6 +106,10 @@ body {
   }
   
   main{
+    position: center;
+    margin: 10% 0%;
+    text-align: center;
+    grid-area: main;
     grid-area: main;
   }
   
