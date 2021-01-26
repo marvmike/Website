@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
 *{
   box-sizing: border-box;
@@ -8,8 +9,6 @@ body {
   font-weight: 400;
   font-size: 25px;
   line-height: 1.5;
-  margin: 100;
-  padding: 100;
   background: linear-gradient(to bottom right, #9933ff 30%, #000066 70%);
   color: #ffffff;
 }
@@ -42,7 +41,7 @@ form{
 
   display: grid;
   width: 400px;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 100% 100%;
   align-items: center;
   grid-gap: .5em;
 }
@@ -62,8 +61,11 @@ form{
   cursor: pointer;
 }
 
-
 .pfp{
   width:350px;
   height:550px;
+}
+
+a{
+  color: white;
 }

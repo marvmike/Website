@@ -78,7 +78,6 @@
 }
 
 .menu li {
-
     padding: 10px 0;
     font-size: 22px;
 }
@@ -104,12 +103,10 @@ body {
   
   header{
     grid-area: header;
-    position: center;
     text-align: center;
   }
   
   main{
-    position: center;
     margin: 10% 0%;
     text-align: center;
     grid-area: main;

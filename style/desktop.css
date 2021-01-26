@@ -46,12 +46,10 @@ nav{
   
   header{
     grid-area: header;
-    position: center;
     text-align: center;
   }
   
   main{
-    position: center;
     margin: 5% 20%;
     text-align: center;
     grid-area: main;
