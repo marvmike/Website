@@ -48,12 +48,12 @@ form{
 }
 
 .btn:hover{
-  background: #3d00a0;
+  background: #9933ff;
 }
 
 .btn {
   text-transform: uppercase;
-  background: #27045f;
+  background: linear-gradient(to bottom right, #9933ff 30%, #000066 70%);
   width: 100%;
   border: 0;
   padding: 15px;
