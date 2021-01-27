@@ -1,3 +1,4 @@
+/* reference 5*/
 .menutoggle{
     display: block;
     position: relative;
@@ -74,7 +75,7 @@
     transform: none;
 }
 
-
+/* here is where it ends, i made a lot more changes either by removing codes like position:absolute or adding my own things to it */
 body {  
     display: grid;
     grid-template-columns: 10% 90%;
