@@ -6,7 +6,7 @@
 
     z-index: 1; /* */
 
-    -webkit-user-select: none;/* means */
+  -webkit-user-select: none;/* means */
     user-select: none;
 }
 
@@ -68,6 +68,7 @@
     
     background: #450061;
     list-style-type: none;
+    
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */
     
