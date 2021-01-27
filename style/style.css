@@ -53,7 +53,7 @@ form{
 
 .btn {
   text-transform: uppercase;
-  background: linear-gradient(to bottom right, #9933ff 30%, #000066 70%);
+  background: linear-gradient(to bottom right,  #000066 30%, #9933ff 70%);
   width: 100%;
   border: 0;
   padding: 15px;
@@ -80,5 +80,11 @@ a{
 .coolpic{
   width: 30em;
   height: 45em;
+  margin: 10px;
+}
+
+.validation{
+  width: 40em;
+  height: 25em;
   margin: 10px;
 }
