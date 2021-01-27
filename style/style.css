@@ -59,7 +59,12 @@ form{
   font-size: 20px;
   cursor: pointer;
 }
+.designchanges{
+  width: 35em;
+  height: 20em;
+  margin: 5px;
 
+}
 .pfp{
   width:350px;
   height:550px;
