@@ -117,3 +117,9 @@ body {
     padding: 10px;
   }
 
+  .col {
+    float: left;
+    width: 80%;
+    margin: 10px;
+  }
+
