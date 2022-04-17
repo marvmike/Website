@@ -99,7 +99,8 @@ a{
 
 .col {
   float: left;
-  width: 50%;
+  width: 46%;
+  margin: 10px;
 }
 
 /* Clear floats after the columns */
